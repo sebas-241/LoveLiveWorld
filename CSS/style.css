@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/IMG/main.jpeg);
+    background-position: center;
+    background-size: contain;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Eczar', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Kenia', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/*NAVEGADOR*/
+.navegador{
+    list-style: none;
+    background-color: #E4007F;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.navegador li {
+    display: inline-block; /*Establece un alto y ancho por elemento*/
+    padding: 20px;
+}
+
+.active{
+    color: #1D1D1D;
+}
+
+/*CUERPO DE LA PAGINA*/
+.info{
+    text-align: center;
+    background-image: url(/IMG/main\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.info p{
+    background-color: azure;
+    color: black;
+    margin: 10px 10px 0 10px;
+    padding: 0 20px 0 20px;
+    border-radius: 3px;
+    border-style: groove;
+    opacity: 5px;
+}
+
+.info img {
+    margin-top: 15px;
+    width: 500px;
+    padding-left: 7%;
+}
+
+.info .konata{
+    width: 400px;
+}
+
+/*MUSAS*/
+.musas {
+    background-color: azure;
+    margin-left: 25%;
+    margin-top: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+    transition: box-shadow .3s;
+    border-style: inset;
+}
+
+.musas img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.musas:hover{
+    transition: .5s;
+    box-shadow: 0 0 15px #E4007F; 
+    border-style: outset;
+    background-color: #E4007F;
+}
+
+.musasLink{
+    text-decoration: none;
+}
+
+.musasLink:hover{
+    color: black;
+}
+
+/*AQOURS*/
+.aqours{
+    margin-left: 4%;
+    background-color: azure;
+    display: inline-block;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    transition: box-shadow .3s;
+    border-style: inset;
+}
+
+.aqours img{
+    width: 450px;
+    border-radius: 5px;
+}
+
+.aqours:hover{
+    transition: .5s;
+    box-shadow: 0 0 15px #00A1E9;
+    border-style: outset;
+    background-color: #00A1E9;
+}
+
+.aqoursLink{
+    text-decoration: none;
+}
+
+.aqoursLink:hover{
+    color: black;
+}
+
+
+
+/*NIJIS*/
+.niji{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 25%;
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    transition: box-shadow .3s;
+    border-style: inset;
+}
+
+.niji img {
+    width: 450px;
+    border-radius: 5px;
+}
+
+.niji:hover{
+    transition: .5s;
+    box-shadow: 0 0 15px #F39800;
+    border-style: outset;
+    background-color: #F39800;
+}
+
+.nijisLink{
+    text-decoration: none;
+}
+.nijisLink:hover{
+    color: black;
+}
+
+
+/*LIELLA*/
+.lelas{
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 4%;
+    background-color: azure;
+    text-align: center;
+    border-radius: 5px;
+    transition: box-shadow .3s;
+    border-style: inset;
+}
+
+.lelas img {
+    width: 450px;
+    border-radius: 5px;
+}
+
+.lelas:hover{
+    transition: .5s;
+    box-shadow: 0 0 15px #A5469B;
+    border-style: outset;
+    background-color: #A5469B;
+}
+
+.lelasLink{
+    text-decoration: none;
+}
+
+.lelasLink:hover{
+    color: black;
+}
+
+/*FOOTER*/
+.credits ul{
+    background-color: #E4007F;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.credits li{
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover {
+    color: #555;
+}

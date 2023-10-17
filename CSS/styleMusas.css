@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(/IMG/musas/main.png);
+    background-position: center;
+    background-size: contain;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
+    font-family: 'Eczar', serif;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Kenia', cursive;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+/*NAVEGADOR*/
+.navegador{
+    list-style: none;
+    background-color: #E4007F;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.navegador li {
+    display: inline-block; /*Establece un alto y ancho por elemento*/
+    padding: 20px;
+}
+
+.active{
+    color: #1D1D1D;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+a:hover{
+    color: #555
+}
+
+.introduccion-generacion{
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+.credits ul{
+    background-color: #E4007F;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.credits li{
+    list-style: none;
+    font-size: 20px;
+    display: inline-block;
+    padding: 5px;
+}
