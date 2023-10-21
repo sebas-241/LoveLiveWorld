@@ -104,7 +104,13 @@ a:hover{
 .personaje1 img{
     height: 250px;
     position: absolute;
+    box-shadow: .3s;
+    margin-top: 500px;
 }
+.personaje1 img:hover{
+
+}
+
 .personaje1{
     position: absolute;
     text-align: center;
