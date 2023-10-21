@@ -1,9 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(/IMG/musas/main.png);
-    background-position: center;
-    background-size: contain;
+    background-color: black;
     font-family: 'Bebas Neue', sans-serif;
     font-family: 'Chakra Petch', sans-serif;
     font-family: 'Eczar', serif;
@@ -41,9 +39,62 @@ a:hover{
 
 .introduccion-generacion{
     background-color: beige;
+    margin: 5px 100px 5px 100px;
+    border-style: ridge ;
+    height: 1000px;
+}
+
+.first_gen h2{
+    margin-left: 10px;
+
+}
+
+.first_gen img , .second_gen img{
+    margin-left: 50px;
+    position: absolute;
+    border-style: inset;
+    transition: box-shadow .3s;
+}
+
+.first_gen img:hover , .second_gen img:hover{
+    border-style: outset;
+    box-shadow: 0 0 10px #E4007F;
 }
 
 
+.first_gen p {
+    color: white;
+    background-color: #555;
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 350px;
+    margin-top: 50px;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+
+.second_gen h2{
+    margin-left: 10px;
+    position: absolute;
+    margin-top: 430px;
+}
+
+.second_gen img{
+    margin-top: 480px;
+    height: 385px;
+}
+
+.second_gen p {
+    color: white;
+    background-color: #555;
+    position: absolute;
+    margin-left: 400px;
+    margin-right: 350px;
+    margin-top: 550px;
+    padding: 11px;
+    border-radius: 5px;
+}
 
 
 
