@@ -96,13 +96,108 @@ a:hover{
     border-radius: 5px;
 }
 
+.seccion-personajes h1{
+    color: white;
+    text-align: center;
+}
+
+.personaje1 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje1{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
 
 
+.personaje2 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje2{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
 
 
+.personaje3 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje3{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
 
 
+.personaje4 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje4{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
 
+
+.personaje5 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje5{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+.personaje6 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje6{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+.personaje7 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje7{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+.personaje8 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje8{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
+
+
+.personaje9 img{
+    height: 250px;
+    position: absolute;
+}
+.personaje9{
+    position: absolute;
+    text-align: center;
+    color: white;
+}
 
 
 
